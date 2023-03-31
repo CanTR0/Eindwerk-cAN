@@ -71,7 +71,7 @@ nav ul li a{
 
 
 section{
-    background: url(afbldig/camii.jpg) no-repeat;
+    background: url(camii.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: calc(100vh);
@@ -81,9 +81,11 @@ section div .col1{
     display: inline-block;
     color: white;
     width: 50%;
+    clear: both;
 }
 
 section div .col2{
     width: 50%;
     color: white;
+    clear: both;
 }
