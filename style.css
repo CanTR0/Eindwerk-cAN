@@ -55,7 +55,7 @@ header nav ul li:hover{
 
 /* ___________________________________________ Footer*/
 footer{
-    height: 260px;
+    height: 270px;
     width: auto;
     padding-left: 20px;
     padding-top: 20px;
@@ -81,7 +81,7 @@ div.Nav-Footer nav ul li a{
 }
 div.Nav-Footer nav ul li {
     color: rgba(255, 255, 255, 0.37);
-    padding-top: 5px;
+    padding-top: 10px;
 
 
 }
