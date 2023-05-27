@@ -13,19 +13,19 @@ header .Turkije{
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-color: rgba(247, 128, 77, 0.555);
+    background-color: rgba(247, 128, 77, 0.441);
     height: 50px;
     
 }
 
 header{
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(253, 222, 183);
 
 }
 
 body{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 div {
     display: inline-block;
@@ -34,7 +34,7 @@ div h1 a{
     color: white;
 }
  /* ___________________________________________ Navigatie*/
-nav ul li{
+header nav ul li{
     color: whitesmoke;
     display: inline-block;
     margin-right: 60px;
@@ -44,36 +44,69 @@ nav ul li{
     margin-bottom: 25px;
     
 }
-nav ul li a{
+header nav ul li a{
     text-transform: uppercase;
     text-decoration: none;
     color: coral;
 }
-nav ul li:hover{
+header nav ul li:hover{
     background-color: burlywood;
 }
+
 /* ___________________________________________ Footer*/
 footer{
-    height: 300px;
+    height: 260px;
     width: auto;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
     background-color: #333;
 }
 
-section#footer1{
+section.Footer1{
     width: 33%;
+    margin-left: 20px;
+    
+}
+p.Footer-Titel{
+    color: rgba(255, 255, 255, 0.667);
+    font-size: 20px;
+    text-decoration: underline solid;
+    padding-bottom: 35px;
 }
 
-section#footer2{
-    width: 33%;
+div.Nav-Footer nav ul li a{
+    color: rgba(255, 255, 255, 0.502);
+    text-decoration: none;
+    
+}
+div.Nav-Footer nav ul li {
+    color: rgba(255, 255, 255, 0.37);
+    padding-top: 5px;
+
 }
 
-section#footer3{
-    width: 33%;
+p.Copyright{
+    font-size: 12px;
+    color: white;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.331);
 }
-div#ftr{
+
+section.footer2{
+    width: 33%;
+    padding-left: 100px;
+}
+
+section.footer3{
+    width: 33%;
+    padding-left: 100px;
+}
+div.ftr{
     display: flex;
+}
+div.Foto-Footer{
+    text-align: center;
+    width: 100px;
 }
 
 
@@ -88,7 +121,7 @@ div#ftr{
 
 }
   
-img {
+.afbeelding img {
     width: 100%;
     height: auto;
 }
@@ -132,6 +165,38 @@ p{
     color: #fff;
     font-size: 12px;
     padding-right: 20px;
+}
+
+/* __________________________________Bezienswaardigheden*/
+div.bzn{
+    text-align: center;
+}
+div.Hagia-Sofia{
+    padding-bottom: 70px;
+    display: inline-block;
+}
+div.Hagia-Foto{
+    padding-top: 10px;
+}
+div.Hagia-Foto img{
+    float: right;
+    width: 500px;
+    padding-left: 100px;
+    border-radius: 30px;
+    
+}
+div.Hagia-Sofia h1{
+    color: black;
+    font-size: 30px;
+    text-align:left;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+div.Hagia-Sofia p{
+    color: black;
+    padding-left: 20px ;
+    margin-bottom: 100px;
+    font-size: 20px;
 }
 
 
