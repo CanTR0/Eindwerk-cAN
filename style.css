@@ -59,7 +59,7 @@ footer{
     width: auto;
     padding-left: 20px;
     padding-top: 20px;
-    background-color: #333;
+    background-color: #292929;
 }
 
 section.Footer1{
@@ -83,7 +83,9 @@ div.Nav-Footer nav ul li {
     color: rgba(255, 255, 255, 0.37);
     padding-top: 5px;
 
+
 }
+
 
 p.Copyright{
     font-size: 12px;
@@ -107,6 +109,11 @@ div.ftr{
 div.Foto-Footer{
     text-align: center;
     width: 100px;
+}
+div.Nav-Footer nav ul li a:hover{
+    text-decoration: underline;
+    background-color: #ff0c0c32;
+
 }
 
 
@@ -170,33 +177,53 @@ p{
 /* __________________________________Bezienswaardigheden*/
 div.bzn{
     text-align: center;
+    background-color: #fff;
+    padding-top: 15px;
 }
-div.Hagia-Sofia{
+div.Tekst-Info{
     padding-bottom: 70px;
     display: inline-block;
 }
-div.Hagia-Foto{
+div.Tekst-Foto{
     padding-top: 10px;
 }
-div.Hagia-Foto img{
+div.Tekst-Foto img{
     float: right;
     width: 500px;
     padding-left: 100px;
     border-radius: 30px;
     
 }
-div.Hagia-Sofia h1{
+div.Tekst-Info h1{
     color: black;
     font-size: 30px;
     text-align:left;
     padding-top: 100px;
     padding-left: 150px;
 }
-div.Hagia-Sofia p{
+div.Tekst-Info p{
     color: black;
     padding-left: 20px ;
     margin-bottom: 100px;
     font-size: 20px;
+}
+div.barbo{
+    text-align: center;
+    margin-left: 350px;
+    padding-bottom: 30px;
+
+}
+div.barbo h1{
+    font-size: 40px;
+    color: black;
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+}
+div.barbo p{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 
