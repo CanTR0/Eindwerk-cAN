@@ -48,7 +48,7 @@ header nav ul li a{
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(241, 241, 241, 0.534);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 header nav ul li a:hover{
     background-color: rgba(255, 255, 255, 0.568);
