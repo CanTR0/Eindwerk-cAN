@@ -12,7 +12,8 @@
     <!-- Navigatie-->
     <header>
         
-        <p class="Turkije">Turkije</p>
+        <p class="Turkije"> Turkiye <img id="logoIMG" src="Afbeeldingen/turkey.png" alt="logo"> </p>
+        
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -20,19 +21,59 @@
                 <li><a href="leger.html">Leger</a></li>
                 <li><a href="geschiedenis.html">Geschiedenis</a></li>
                 <li><a href="cultuur.html">Cultuur</a></li>
-                <li><a href="contact.html"target="_blank">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-<div class="afbeelding"> 
+ <div class="afbeelding"> 
     <img src="Afbeeldingen/istanbul.jpg" alt="">
 
 <div class="afbeelding-text">
     <h1>Welkom in de centrum van de wereld</h1>
 
 </div>
-</div>
+</div> 
+<!-- Buttons-->
+<section class="a">
+    <div class="btnS">
+        <a href="bezienswaardigheden.html"><input id="btnBez" type="button" value="Bezienswaardigheden" onclick=btnBez()></a>
+    </div>
+    <div class="btn">
+        <a href="leger.html"><input id="btnLeger" type="button" value="Leger" onclick=Leger()></a>
+    </div>
+    <div class="btn">
+        <a href="geschiedenis.html"><input id="btnGesch" type="button" value="Geschiedenis" onclick=Gesch()></a>
+    </div>
+    <div class="btn">
+        <a href="cultuur.html"><input id="btnCult" type="button" value="Cultuur" onclick=Cult()></a>
+    </div>
+    <div class="btn">
+        <a href="contact.html"><input id="btnCont" type="button" value="Contact"></a>
+    </div>
+</section>
+
+<!-- Javascript Button-->
+<script>
+    function btnBez()
+    {
+        alert("Welkom in Bezienswaardigheden")
+
+    }
+    function Leger()
+    {
+        alert("Welkom in Leger")
+    }
+    function Gesch()
+    {
+        alert("Welkom in Geschiedenis van Turkije")
+    }
+    function Cult()
+    {
+        alert("Welkom in turkse cultuur")
+    }
+</script>
+
 
 
      <!-- ____________________________________________________________________________Footer
@@ -56,10 +97,11 @@
              </nav>
      
              <p class="Copyright">All rights reserved by Can Ünal <br> © T.I.C.</p>
-     
+
              
          </div>
         </section>
+
      
         <section class="footer2">
          <div class="Nav-Footer">
